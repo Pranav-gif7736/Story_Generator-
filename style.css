@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.story {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #e9e9e9;
+  border-radius: 4px;
+  margin-top: 20px;
+  min-height: 50px; /* Give it some initial height */
+  visibility: hidden; /* Hidden by default */
+}
